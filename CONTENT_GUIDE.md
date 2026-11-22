@@ -58,3 +58,8 @@ If the push is refused, the checker can't be made to pass, or the repository can
 - When a city has a live PDF, its guide page's "Want it offline?" box ends with:
   `<br><a class="cta" href="https://layoverly.gumroad.com/l/<slug>" rel="noopener">Get the PDF guide – $7</a>`
 - Cities without a PDF keep "<i>PDF edition coming soon.</i>". Never link to a product that isn't published.
+
+## Photos
+- Use only Hamad's own photos (never copied web images). Store in /assets/img/<slug>/, max 900x1200, JPEG q78, ALL metadata stripped (no GPS/EXIF).
+- No identifiable strangers' faces; no photos showing Hamad himself or his workplace.
+- Pattern (see athens.html): hero <figure> after the intro, descriptive alt text, caption ending "Photo: Layoverly.", og:image + twitter "summary_large_image" pointing to the hero.
