@@ -1,0 +1,7 @@
+{
+  "base_url": "https://layoverly-guide.github.io",
+  "guides": [
+    {"city": "Athens", "slug": "athens", "region": "Europe", "published": "2026-11-22", "last_checked": "2026-11-22"}
+  ],
+  "queue": ["Istanbul", "Paris", "London", "Dubai", "Milan", "Munich", "Cairo", "Doha", "Prague", "Rome", "Bangkok", "Amsterdam", "Vienna", "Barcelona", "Kuala Lumpur", "Lisbon", "Budapest", "Abu Dhabi", "Delhi", "Warsaw"]
+}
