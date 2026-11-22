@@ -18,7 +18,7 @@ class P(HTMLParser):
 pages = []
 for dp, dirs, fs in os.walk(root):
     dirs[:] = [d for d in dirs if d != ".git"]
-    pages += [os.path.join(dp, f) for f in fs if f.endswith(".html")]
+    pages += [os.path.join(dp, f) for f in fs if f.endswith(".html") and not f.startswith("google")]  # skip Search Console verification file
 for p in pages:
     rel = os.path.relpath(p, root); html = open(p, encoding="utf-8").read(); h = P(); h.feed(html)
     if not h.title.strip(): errors.append(f"{rel}: missing <title>")
