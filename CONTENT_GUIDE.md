@@ -39,6 +39,7 @@ If the owner moves the site to a custom domain, change `base_url` in `guides.jso
 
 ## Never delete
 - `google527523d80f86532c.html`: the Google Search Console verification file. Deleting it breaks the traffic reporting.
+- `58d96af23e9044d0b00933f3d541510f.txt`: the IndexNow key file (tells Bing and other search engines about new pages). If the OpenSEO connector is available, call its submit_indexnow_urls tool (project "Layoverly") with every new or refreshed page URL after each push.
 
 ## Content rules
 - Write in plain, original English. Never copy text from other sites.
