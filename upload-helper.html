@@ -1,0 +1,8 @@
+<!doctype html><meta name="robots" content="noindex"><title>helper</title>
+<script>
+(async()=>{const base='https://raw.githubusercontent.com/layoverly-guide/layoverly-guide.github.io/tmp-upload/';
+for (const [n,t] of [['Layoverly-Athens-cover.png','image/png'],['Layoverly-Athens-thumbnail.png','image/png'],['Layoverly-Athens-24-48h.pdf','application/pdf']]) {
+ try{const b=await (await fetch(base+n)).arrayBuffer(); parent.postMessage({name:n,type:t,buf:b},'https://gumroad.com');}
+ catch(e){parent.postMessage({err:String(e),name:n},'https://gumroad.com');}
+}})();
+</script>
