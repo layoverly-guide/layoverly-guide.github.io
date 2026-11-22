@@ -37,6 +37,9 @@ Once, add region headings (Europe, Middle East, Asia, Africa, Americas) to `guid
 ## Changing the domain
 If the owner moves the site to a custom domain, change `base_url` in `guides.json`, then replace the old base URL in every canonical tag, `sitemap.xml` and `robots.txt` in one commit, and run the checker.
 
+## Never delete
+- `google527523d80f86532c.html`: the Google Search Console verification file. Deleting it breaks the traffic reporting.
+
 ## Content rules
 - Write in plain, original English. Never copy text from other sites.
 - Every price and time must come from a current source. If sources disagree, give a range or say "check on the day". Never invent anything.
