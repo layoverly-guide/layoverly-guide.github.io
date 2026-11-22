@@ -52,3 +52,9 @@ If the owner moves the site to a custom domain, change `base_url` in `guides.jso
 
 ## If something goes wrong
 If the push is refused, the checker can't be made to pass, or the repository can't be attached, do not publish anything partial. Report the problem clearly so the owner is alerted.
+
+## PDF editions (Gumroad shop "Layoverly")
+- Athens PDF is live at https://layoverly.gumroad.com/l/athens ($7, pay-what-you-want, min $7).
+- When a city has a live PDF, its guide page's "Want it offline?" box ends with:
+  `<br><a class="cta" href="https://layoverly.gumroad.com/l/<slug>" rel="noopener">Get the PDF guide – $7</a>`
+- Cities without a PDF keep "<i>PDF edition coming soon.</i>". Never link to a product that isn't published.
